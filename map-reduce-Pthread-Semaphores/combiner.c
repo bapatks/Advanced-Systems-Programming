@@ -36,12 +36,12 @@ int main(int argc, char* argv[])
                     ||
                     \/
         struct => { buffer_ptr, in, out, numItems,......}
-    	            ||
-    			    ||		
-    	actual		||		
-    	buffer of   ||
-    	each reducer||
-    	thread      ||
+    	             ||
+    	             ||		
+    	actual       ||		
+    	buffer of    ||
+    	each reducer ||
+    	thread       ||
                     \/
     	 =>        [ struct tuple0 , struct tuple1  , struct tuple2................., struct tuple9]....the same for every ptr in buff
 
